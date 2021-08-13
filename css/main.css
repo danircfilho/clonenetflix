@@ -1,0 +1,145 @@
+:root {
+  --preto: #141414;
+  --vermelho: #e50914;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*FONTS*/
+@font-face {
+  font-family: font-1;
+  src: url("../fonts/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+  font-family: font-2;
+  src: url("../fonts/Amble-Regular.ttf");
+}
+
+body {
+  background: var(--preto);
+  font-family: Font-2, "Times New Roman", Times, serif;
+  color: #ffffff;
+}
+
+/*HEADER*/
+header .container {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-nav {
+  color: var(--vermelho);
+  font-family: font-1, "Times New Roman", Times, serif;
+  font-size: 70px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #9b9292;
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #fff;
+}
+
+/*MAIN*/
+main .container {
+  margin-left: 20px;
+  width: 80%;
+}
+
+.movie-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("../img/postergrey.jpg");
+  background-size: cover;
+  height: 400px;
+  font-size: 16px;
+}
+
+.description {
+  margin-bottom: 40px;
+}
+
+.title {
+  margin-top: 15%;
+  font-size: 50px;
+  font-family: font-2, "Times New Roman", Times, serif;
+}
+
+.banner-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #ffffff;
+  width: 250px;
+  padding: 15px 30px;
+  margin-top: 10px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.banner-button:hover {
+  background-color: #ffffff;
+  color: #141414;
+}
+
+/*FONT AWESOME*/
+.button-awes {
+  margin-right: 10px;
+}
+
+/*CAROUSEL*/
+.movie-size {
+  display: block;
+}
+
+.carousel {
+  margin-top: 10px;
+}
+
+.container-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #9b9292;
+}
+
+.title-item {
+  margin: 20px 0px 20px 20px;
+}
+
+.img-back {
+  width: 40px;
+  padding-left: 5px;
+}
+
+.line-div {
+  border-top: 2px solid #404040;
+  margin-top: 10px;
+}
+
+.p-color {
+  padding: 20px;
+  text-align: center;
+  color: #404040;
+}
+
+.frame {
+  display: flex;
+  margin-left: 9vh;
+  margin-right: 9vh;
+  justify-content: center;
+}

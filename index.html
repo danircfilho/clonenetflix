@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--ICON - ABA-->
+    <link rel="icon" type="imagem/png" href="img/icon-nf.png" />
+    <!--JQUERY OWL-->
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css" />
+    <!--CSS-->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Streaming Clone</title>
+  </head>
+  <body>
+    <header>
+      <div id="nav" class="container">
+        <h1 class="logo-nav">NETFINX</h1>
+        <nav>
+          <a class="nav-info" href="#">Iniciar</a>
+          <a onclick="conteudo()" href="#serie">Séries</a>
+          <a onclick="conteudo()" href="#movie">Filmes</a>
+          <a onclick="conteudo()" href="#docum">Documentários</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="movie-banner">
+        <div class="container">
+          <h2 class="title">GREY´S ANATOMY</h2>
+          <p class="description">
+            Uma série para maratonar... Assista os episódios inéditos da nova
+            série ou relembre as antigas e emocionantes temporadas.
+          </p>
+          <div>
+            <a href="./stream.html" target="_parent">
+              <button role="button" class="banner-button">
+                <i class="button-awes fas fa-play-circle"></i>
+                ASSISTIR TRAILER
+              </button>
+            </a>
+            <button class="banner-button button-info">
+              <i class="button-awes fas fa-info-circle"></i>
+              MAIS INFORMAÇÕES
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--CAROUSEL SERIES-->
+    <section>
+      <div id="serie" class="container-title line-div">
+        <h3 class="title-item">Séries</h3>
+        <!--Envolver tag nav - Jquery scrool up/down suave-->
+        <nav>
+          <a href="#nav">
+            <img class="img-back" src="./img/back.png" alt="Back" />
+          </a>
+        </nav>
+      </div>
+      <div class="carousel">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img class="movie-size" src="img/img-1.jpg" alt="Série1" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/img-2.jpg" alt="Série2" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/img-3.jpg" alt="Série3" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/img-4.jpg" alt="Série4" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/img-5.jpg" alt="Série5" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/img-6.jpg" alt="Série6" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/img-7.jpg" alt="Série7" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/img-8.jpg" alt="Série8" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/img-9.jpg" alt="Série9" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/img-10.jpg" alt="Série10" />
+          </div>
+        </div>
+      </div>
+      <!--CAROUSEL MOVIES-->
+      <div id="movie" class="container-title line-div">
+        <h3 class="title-item">Filmes</h3>
+        <!--Envolver tag nav - Jquery scrool up/down suave-->
+        <nav>
+          <a href="#nav">
+            <img class="img-back" src="./img/back.png" alt="Back" />
+          </a>
+        </nav>
+      </div>
+      <div class="carousel">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img class="movie-size" src="img/mov-1.jpg" alt="Série1" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/mov-2.jpg" alt="Série2" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/mov-3.jpg" alt="Série3" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/mov-4.jpg" alt="Série4" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/mov-5.jpg" alt="Série5" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/mov-6.jpg" alt="Série6" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/mov-7.jpg" alt="Série7" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/mov-8.jpg" alt="Série8" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/mov-9.jpg" alt="Série9" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/mov-10.jpg" alt="Série10" />
+          </div>
+        </div>
+      </div>
+      <!--CAROUSEL DOCUMENTARY-->
+      <div id="docum" class="container-title line-div">
+        <h3 class="title-item">Documentários</h3>
+        <!--Envolver tag nav - Jquery scrool up/down suave-->
+        <nav>
+          <a href="#nav">
+            <img class="img-back" src="./img/back.png" alt="Back" />
+          </a>
+        </nav>
+      </div>
+      <div class="carousel">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img class="movie-size" src="img/doc-1.jpg" alt="Série1" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/doc-2.jpg" alt="Série2" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/doc-3.jpg" alt="Série3" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/doc-4.jpg" alt="Série4" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/doc-5.jpg" alt="Série5" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/doc-6.jpg" alt="Série6" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/doc-7.jpg" alt="Série7" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/doc-8.jpg" alt="Série8" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/doc-9.jpg" alt="Série9" />
+          </div>
+          <div class="item">
+            <img class="movie-size" src="img/doc-10.jpg" alt="Série10" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--MODAL-->
+    <div id="modalnav" class="modal-container-info">
+      <div class="modal">
+        <button class="close">x</button>
+        <p class="text-modal">
+          <img class="img-netflix" src="./img/logo-nf.png" alt="Netflix" />
+          Para acessar os conteúdos de streaming cadastre-se na plataforma da
+          NetFlix!
+        </p>
+      </div>
+    </div>
+
+    <div id="modalinfo" class="modal-container-info">
+      <div class="modal">
+        <button class="close">x</button>
+        <h2>Grey´s Anatomy (2005)</h2>
+        <p><strong class="classific">14</strong> Drama &bull; 40min</p>
+        <br />
+        <p>
+          Os médicos do Grey Sloan Memorial Hospital lidam diariamente com casos
+          e consequências de vida ou morte. É um no outro que eles encontram
+          apoio, conforto, amizade e, às vezes, até mais que amizade... Juntos,
+          eles descobrem o quanto a vida profissional e a pessoal podem ser
+          complicadas e se misturarem no meio do caminho.
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="line-div">
+        <p class="p-color">
+          &copy Copyrigth "All Rigth Reserved" - "Coded By Daniel Rodrigues"
+        </p>
+      </div>
+    </footer>
+
+    <!--FONT AWESOME-->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js"
+      integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js"
+      integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO"
+      crossorigin="anonymous"
+    ></script>
+    <!--JQUERY-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <!--JSCRIPT-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
