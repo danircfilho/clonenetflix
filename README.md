@@ -12,3 +12,7 @@ Neste projeto de front-end foi estruturado um layout e utilizados técnicas de C
 
 ## Clique abaixo e visite o site que contem este projeto
 https://clone-streaming-netflix.netlify.app
+
+Copyrigth (c) 2021 - Daniel Rodrigues de Carvalho Filho
+
+"This project is licensed under the terms of the MIT license."
